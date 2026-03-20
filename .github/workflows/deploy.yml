@@ -24,14 +24,14 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: cd vue-website && npm ci
+        run: npm ci
 
       - name: Build project
-        run: cd vue-website && npm run build
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./vue-website/dist
+          publish_dir: ./dist
 
