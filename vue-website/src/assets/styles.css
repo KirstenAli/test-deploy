@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for CAD Services website */
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-cad-blue text-white rounded-lg hover:bg-blue-700 transition-colors font-medium;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-white text-cad-blue border-2 border-cad-blue rounded-lg hover:bg-cad-light transition-colors font-medium;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow;
+  }
+
+  .section-title {
+    @apply text-4xl font-bold text-cad-navy mb-12 text-center;
+  }
+
+  .section-subtitle {
+    @apply text-gray-600 text-center mb-8 text-lg;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-gray-800;
+}
+
+/* Animations */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.6s ease-out;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
