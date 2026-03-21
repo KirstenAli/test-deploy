@@ -7,17 +7,16 @@
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
     <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      (function(l) {
-        if (l.search[1] === 'p') {
-          var decoded = l.search.slice(3).split('&').map(function(s) {
-            return s.replace(/~and~/g, '&')
-          }).join('?');
-          window.history.replaceState(null, null,
-              l.pathname.slice(0, -1) + decoded + l.hash
-          );
+      // Handle SPA routing redirects from 404.html
+      (function() {
+        if (window.location.search.includes('spa-redirect=true')) {
+          var redirectPath = sessionStorage.getItem('redirectPath');
+          if (redirectPath) {
+            sessionStorage.removeItem('redirectPath');
+            window.history.replaceState(null, null, redirectPath);
+          }
         }
-      }(window.location))
+      })();
     </script>
   </head>
   <body>

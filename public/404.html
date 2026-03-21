@@ -4,18 +4,16 @@
     <meta charset="utf-8">
     <title>Single Page App</title>
     <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      var segmentCount = 1;
-      var l = window.location;
-      l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
-        l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
+      // Store the requested path in sessionStorage
+      var path = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+
+      // Store the full route
+      sessionStorage.setItem('redirectPath', path + search + hash);
+
+      // Redirect to index.html
+      window.location.replace(path.split('/').slice(0, 2).join('/') + '/?spa-redirect=true');
     </script>
   </head>
   <body>
