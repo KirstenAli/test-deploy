@@ -1,11 +1,10 @@
-<!doctype html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/test-deploy/favicon.ico"><title>vue-website</title><script>// Single Page Apps for GitHub Pages
-      (function(l) {
-        if (l.search[1] === 'p') {
-          var decoded = l.search.slice(3).split('&').map(function(s) {
-            return s.replace(/~and~/g, '&')
-          }).join('?');
-          window.history.replaceState(null, null,
-              l.pathname.slice(0, -1) + decoded + l.hash
-          );
+<!doctype html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/test-deploy/favicon.ico"><title>vue-website</title><script>// Handle SPA routing redirects from 404.html
+      (function() {
+        if (window.location.search.includes('spa-redirect=true')) {
+          var redirectPath = sessionStorage.getItem('redirectPath');
+          if (redirectPath) {
+            sessionStorage.removeItem('redirectPath');
+            window.history.replaceState(null, null, redirectPath);
+          }
         }
-      }(window.location))</script><script defer="defer" src="/test-deploy/js/chunk-vendors.898219b9.js"></script><script defer="defer" src="/test-deploy/js/app.9ac309f8.js"></script><link href="/test-deploy/css/app.d9ff71f6.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but vue-website doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
+      })();</script><script defer="defer" src="/test-deploy/js/chunk-vendors.898219b9.js"></script><script defer="defer" src="/test-deploy/js/app.9ac309f8.js"></script><link href="/test-deploy/css/app.d9ff71f6.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but vue-website doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
