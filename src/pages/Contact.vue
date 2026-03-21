@@ -281,10 +281,19 @@ export default {
       this.isSubmitting = true
 
       try {
-        // Simulate API call - in production, replace with actual backend call
-        await new Promise(resolve => setTimeout(resolve, 1000))
+        // Send to Formspree
+        const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(this.form)
+        })
 
-        // Here you would normally send the form data to your backend
+        if (!response.ok) {
+          throw new Error('Failed to send message')
+        }
+
         console.log('Form submitted:', this.form)
 
         this.submitted = true
