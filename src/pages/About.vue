@@ -16,7 +16,7 @@
             <h2 class="text-3xl font-bold text-cad-navy mb-6">Who We Are</h2>
             <p class="text-gray-600 mb-4 leading-relaxed">
               CAD Services Scotland Ltd has been a trusted partner in professional draughting services since 1998.
-              With over 25 years of experience, we understand what industry demands: professional service, flexibility,
+              With over 40 years of experience, we understand what industry demands: professional service, flexibility,
               and quick turnaround times.
             </p>
             <p class="text-gray-600 mb-4 leading-relaxed">
@@ -35,7 +35,7 @@
                 <div class="text-3xl">✓</div>
                 <div>
                   <h3 class="text-xl font-bold text-cad-navy mb-2">Established Reputation</h3>
-                  <p class="text-gray-600">25+ years of trusted service in CAD draughting</p>
+                  <p class="text-gray-600">40+ years of trusted service in CAD draughting</p>
                 </div>
               </div>
               <div class="flex items-start space-x-4">
@@ -104,7 +104,7 @@
           <div class="flex items-start space-x-4">
             <div class="text-2xl">🏗️</div>
             <div>
-              <h3 class="text-xl font-bold text-cad-navy mb-2">Structural Design</h3>
+              <h3 class="text-xl font-bold text-cad-navy mb-2">Structural Drawings</h3>
               <p class="text-gray-600">Structural steel for construction and offshore applications</p>
             </div>
           </div>
@@ -149,12 +149,12 @@ export default {
         {
           id: 3,
           title: 'Offshore & Subsea',
-          description: 'Complex offshore platform and subsea system design'
+          description: 'Subsea projects and surface vessel projects for subsea'
         },
         {
           id: 4,
           title: 'Structural Steel',
-          description: 'Structural steel design for construction and offshore applications'
+          description: 'Structural steel drawings for construction and offshore applications'
         },
         {
           id: 5,

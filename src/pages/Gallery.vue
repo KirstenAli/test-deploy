@@ -107,17 +107,17 @@ export default {
           name: 'Offshore Platform Layout',
           industry: 'Oil & Gas',
           type: '2D & 3D CAD',
-          description: 'Comprehensive platform design with mechanical systems',
+          description: 'Comprehensive platform drawings with mechanical systems',
           details: 'Complex offshore oil and gas platform with detailed mechanical, piping, and structural components.',
           icon: '⛽'
         },
         {
           id: 2,
-          name: 'Bridge Structural Design',
+          name: 'Bridge Structural Drawings',
           industry: 'Structural Steel',
-          type: 'Structural Design',
+          type: 'Structural Drawings',
           description: 'Large span bridge with detailed fabrication drawings',
-          details: 'Detailed structural steel design with all fabrication and assembly drawings.',
+          details: 'Detailed structural steel drawings with all fabrication and assembly drawings.',
           icon: '🌉'
         },
         {
@@ -152,7 +152,7 @@ export default {
           name: 'Industrial Gearbox',
           industry: 'Mechanical',
           type: 'Mechanical Design',
-          description: 'Heavy-duty gearbox assembly design',
+          description: 'Heavy-duty gearbox assembly drawings',
           details: 'Complete gearbox assembly with tolerance specifications.',
           icon: '⚙️'
         },
@@ -162,14 +162,14 @@ export default {
           industry: 'Oil & Gas',
           type: 'Pressure Equipment',
           description: 'Pressure vessel for hydrocarbon processing',
-          details: 'Detailed pressure vessel design with all fittings and nozzles.',
+          details: 'Detailed pressure vessel drawings with all fittings and nozzles.',
           icon: '⛽'
         },
         {
           id: 8,
           name: 'Structural Frame',
           industry: 'Structural Steel',
-          type: 'Structural Design',
+          type: 'Structural Drawings',
           description: 'Multi-story building structural framework',
           details: 'Complete structural steel frame with all connections and details.',
           icon: '🏗️'

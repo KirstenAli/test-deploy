@@ -134,7 +134,7 @@ export default {
           tagline: 'Precise technical drawings for all applications',
           icon: '📐',
           title: 'Professional 2D CAD Drawings',
-          description: 'From initial concept design through to detailed fabrication shop drawings, we create precise 2D technical drawings that meet your exact specifications. Our expertise spans general arrangement drawings, mechanical drawings with fine geometric tolerances, electrical schematics, and architectural plans.',
+          description: 'From initial concept design through to detailed fabrication shop drawings, we create precise 2D technical drawings that meet your exact specifications. we provide general cad drawings for any business type, from site marked up electrical, fire & security to surveying machinery and factories to layout drawings.',
           features: [
             'General Arrangement (GA) drawings',
             'Detailed fabrication shop drawings',
@@ -150,7 +150,7 @@ export default {
             { id: 3, icon: '🔒', name: 'Professional Standards', description: 'Compliance with industry standards and best practices' }
           ],
           reasons: [
-            { id: 1, icon: '✓', title: 'Expert Draughtsmen', description: 'Experienced team with 25+ years in the industry' },
+            { id: 1, icon: '✓', title: 'Expert Draughtsmen', description: 'Experienced team with 40+ years in the industry' },
             { id: 2, icon: '⚡', title: 'Quick Delivery', description: 'Fast turnaround without compromising quality' },
             { id: 3, icon: '📐', title: 'Precision', description: 'Meticulous attention to detail and accuracy' },
             { id: 4, icon: '🔒', title: 'Confidential', description: 'All your information is kept strictly confidential' }
@@ -186,11 +186,11 @@ export default {
         },
         'structural-steel': {
           id: 'structural-steel',
-          name: 'Structural Steel Design',
+          name: 'Structural Steel Drawings',
           tagline: 'Construction and offshore structural solutions',
           icon: '🏗️',
-          title: 'Structural Steel Design & Drawings',
-          description: 'Our structural steel expertise spans from building frameworks to offshore platforms. We provide complete design and drawing packages including general arrangements, fabrication details, and assembly drawings.',
+          title: 'Structural Steel Drawings',
+          description: 'Our structural steel expertise spans from building frameworks to offshore platforms. We provide complete drawings packages including general arrangements, fabrication details, and assembly drawings.',
           features: [
             'Building frameworks and structures',
             'Offshore platform structures',
@@ -201,15 +201,15 @@ export default {
           ],
           industries: ['Construction', 'Offshore', 'Infrastructure', 'Oil & Gas'],
           detailedFeatures: [
-            { id: 1, icon: '🏗️', name: 'Structural Design', description: 'Complete structural steel design and analysis' },
+            { id: 1, icon: '🏗️', name: 'Structural Drawings', description: 'Complete structural steel drawings and analysis' },
             { id: 2, icon: '📋', name: 'Fabrication Drawings', description: 'Detailed shop drawings for fabrication' },
             { id: 3, icon: '🔧', name: 'Assembly Details', description: 'Clear assembly and erection instructions' }
           ],
           reasons: [
-            { id: 1, icon: '✓', title: 'Extensive Experience', description: 'Proven track record in structural steel design' },
-            { id: 2, icon: '🏗️', title: 'Complete Solutions', description: 'From design to fabrication documentation' },
+            { id: 1, icon: '✓', title: 'Extensive Experience', description: 'Proven track record in structural steel drawings' },
+            { id: 2, icon: '🏗️', title: 'Complete Solutions', description: 'From drawings to fabrication documentation' },
             { id: 3, icon: '⚡', title: 'Standards Compliance', description: 'All work complies with relevant engineering standards' },
-            { id: 4, icon: '🔒', title: 'Confidential Service', description: 'Your designs and specifications are protected' }
+            { id: 4, icon: '🔒', title: 'Confidential Service', description: 'Your drawings and specifications are protected' }
           ]
         },
         'mechanical-design': {
@@ -218,7 +218,7 @@ export default {
           tagline: 'Complex mechanical assemblies and systems',
           icon: '⚙️',
           title: 'Mechanical Design & CAD',
-          description: 'From concept to detailed production drawings, we handle all aspects of mechanical design. Our services include machine design, equipment assemblies, precision components, and hydraulic systems.',
+          description: 'From concept to detailed production drawings, we handle all aspects of mechanical design. Our services include concept design of subsea assemblies, pipe laying equipment of ships, hydraulic power units.',
           features: [
             'Machine and equipment design',
             'Complex assemblies and subassemblies',
@@ -234,7 +234,7 @@ export default {
             { id: 3, icon: '🔧', name: 'Production Ready', description: 'Drawings ready for manufacturing' }
           ],
           reasons: [
-            { id: 1, icon: '⚙️', title: 'Mechanical Expertise', description: '25+ years in mechanical design and CAD' },
+            { id: 1, icon: '⚙️', title: 'Mechanical Expertise', description: '40+ years in mechanical design and CAD' },
             { id: 2, icon: '🎯', title: 'Precision & Accuracy', description: 'Meticulous attention to detail in all drawings' },
             { id: 3, icon: '⚡', title: 'Fast Delivery', description: 'Quick turnaround without quality compromises' },
             { id: 4, icon: '🤝', title: 'Collaborative Approach', description: 'We work closely with your team for perfect results' }

@@ -261,7 +261,7 @@ This creates a `dist/` folder with all files ready to deploy.
 ## 🎯 Business Value
 
 Your website now showcases:
-- ✅ **25+ years of experience** (established 1998)
+- ✅ **40+ years of experience** (established 1998)
 - ✅ **Professional draughting service** with proven expertise
 - ✅ **Quick turnaround times** - shown prominently
 - ✅ **Multi-industry expertise** - 12+ industries featured

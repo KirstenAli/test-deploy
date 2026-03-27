@@ -168,7 +168,7 @@ To enable email:
 
 ## 🎯 Business Value
 
-✅ 25+ years experience displayed
+✅ 40+ years experience displayed
 ✅ Professional draughting expertise highlighted
 ✅ Quick turnaround messaging
 ✅ 12+ industries showcased

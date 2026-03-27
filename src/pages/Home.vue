@@ -73,7 +73,7 @@
             <div class="text-4xl mb-4">✓</div>
             <h3 class="text-2xl font-bold text-cad-navy mb-3">Reliable & Professional</h3>
             <p class="text-gray-600">
-              Established reputation with 25+ years experience. We deliver promises we can keep, building long-term relationships.
+              Established reputation with 40+ years experience. We deliver promises we can keep, building long-term relationships.
             </p>
           </div>
         </div>
@@ -114,14 +114,14 @@ export default {
         { id: 4, name: 'Mechanical Design', description: 'Mechanical assemblies and systems', icon: '⚙️' }
       ],
       industries: [
-        { id: 1, name: 'Engineering', desc: 'General engineering solutions' },
-        { id: 2, name: 'Construction', desc: 'Building and infrastructure' },
-        { id: 3, name: 'Oil & Gas', desc: 'Energy sector expertise' },
-        { id: 4, name: 'Offshore', desc: 'Offshore platform design' },
-        { id: 5, name: 'Subsea', desc: 'Subsea systems' },
-        { id: 6, name: 'Mechanical', desc: 'Mechanical systems' },
-        { id: 7, name: 'Piping', desc: 'Piping & hydraulics' },
-        { id: 8, name: 'Water Treatment', desc: 'Water systems' }
+        { id: 1, name: 'Engineering', desc: 'General engineering solutions', icon: '🏢' },
+        { id: 2, name: 'Construction', desc: 'Building and infrastructure', icon: '🏗️' },
+        { id: 3, name: 'Oil & Gas', desc: 'Energy sector expertise', icon: '⛽' },
+        { id: 4, name: 'Offshore', desc: 'Offshore platform design', icon: '⚓' },
+        { id: 5, name: 'Subsea', desc: 'Subsea systems', icon: '🌊' },
+        { id: 6, name: 'Mechanical', desc: 'Mechanical systems', icon: '⚙️' },
+        { id: 7, name: 'Piping', desc: 'Piping & hydraulics', icon: '🔧' },
+        { id: 8, name: 'Water Treatment', desc: 'Water systems', icon: '💧' }
       ]
     }
   },

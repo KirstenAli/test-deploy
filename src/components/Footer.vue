@@ -76,7 +76,7 @@
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.81l.286 1.643a1 1 0 01-.502 1.21l-1.197.604A1 1 0 005.45 9.65c2.56 2.559 5.828 5.821 8.383 8.38a1 1 0 001.12.231l.604-1.199a1 1 0 011.21-.502l1.643.286a1 1 0 01.81.986V17a1 1 0 01-1 1H2a1 1 0 01-1-1V3z"></path>
               </svg>
               <div class="text-gray-300">
-                <p>+44 (0)1382 432345</p>
+                <p>+44(0)141 563 4276</p>
               </div>
             </div>
             <div class="flex items-start space-x-2">
@@ -85,7 +85,7 @@
                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
               </svg>
               <div class="text-gray-300">
-                <p><a href="mailto:info@cadservices.co.uk" class="hover:text-cad-blue">info@cadservices.co.uk</a></p>
+                <p><a href="mailto:cadservicesscotland@gmail.com" class="hover:text-cad-blue">cadservicesscotland@gmail.com</a></p>
               </div>
             </div>
           </div>

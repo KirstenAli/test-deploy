@@ -23,8 +23,7 @@ Your modern, professional Vue2 website for CAD Services Scotland has been succes
 
 2. **About Page** (`src/pages/About.vue`)
    - Company overview and mission
-   - 25+ years of experience highlighted
-   - Expertise areas showcase
+   - 40+ years of experience highlighted   - Expertise areas showcase
    - Services offered details
    - Overflow work capability message
 
@@ -53,8 +52,7 @@ Your modern, professional Vue2 website for CAD Services Scotland has been succes
    - Individual pages for:
      - 2D CAD Drawings
      - 3D CAD Modeling
-     - Structural Steel Design
-     - Mechanical Design
+     - Structural Steel Drawings     - Mechanical Design
      - Piping & Hydraulic Systems
 
 ### ✅ Components Created

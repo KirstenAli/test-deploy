@@ -52,7 +52,7 @@
             <div class="text-4xl mb-4">✓</div>
             <h3 class="text-xl font-bold text-cad-navy mb-3">Expert Knowledge</h3>
             <p class="text-gray-600">
-              With 25+ years of experience, we understand the nuances of CAD design across multiple industries
+              With 40+ years of experience, we understand the nuances of CAD design across multiple industries
             </p>
           </div>
           <div class="card p-8">
@@ -142,7 +142,7 @@ export default {
         { id: 8, name: 'Water Treatment', icon: '💧' },
         { id: 9, name: 'Railway', icon: '🚂' },
         { id: 10, name: 'Motorway', icon: '🛣️' },
-        { id: 11, name: 'Electrical', icon: '⚡' },
+        { id: 11, name: 'structural', icon: '🏗️' },
         { id: 12, name: 'Glazed Structures', icon: '🪟' }
       ]
     }

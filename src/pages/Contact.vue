@@ -16,14 +16,14 @@
           <div class="card p-8 text-center">
             <div class="text-4xl mb-4">📞</div>
             <h3 class="text-xl font-bold text-cad-navy mb-2">Phone</h3>
-            <p class="text-gray-600">+44 (0)1382 432345</p>
+            <p class="text-gray-600">+44(0)141 563 4276</p>
           </div>
           <div class="card p-8 text-center">
             <div class="text-4xl mb-4">📧</div>
             <h3 class="text-xl font-bold text-cad-navy mb-2">Email</h3>
             <p class="text-gray-600">
-              <a href="mailto:info@cadservices.co.uk" class="text-cad-blue hover:underline">
-                info@cadservices.co.uk
+              <a href="mailto:cadservicesscotland@gmail.com" class="text-cad-blue hover:underline">
+                cadservicesscotland@gmail.com
               </a>
             </p>
           </div>
