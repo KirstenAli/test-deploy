@@ -7,6 +7,7 @@ import './assets/styles.css'
 Vue.use(Vuelidate)
 
 Vue.config.productionTip = false
+console.log("breaking cache v1");
 
 new Vue({
   router,
